@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-eqiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>     
+    <title>Product detail</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/payment.css"/>
+</head>
+
+<body>
+    <div id="banner"></div>
+	<div id="container">
+		
+			<a href="index.html"><img id="logo" src="img/logo.png" alt="logo"/></a>
+			
+	<!--navigation-->
+	
+			<div id="nav">
+				<a class="navblock navlink" href="see.html">See&amp;Do</a>
+				<a class="navblock navlink" href="eat.html">Eat&amp;Drink</a>
+				<a class="navblock navlink" href="entertain.html">Entertainment</a>
+				<div id="search" class="navblock" >
+					<form>
+					<input type="text" id="searchbox" value="search"  />
+					<input type="image"  class="navicon" src="img/search.png" alt="search" />
+					</form>
+				</div>
+				
+				<a  id="shoppingcart" class="navblock" href="payment.html"><img class=" navicon" src="img/shoppingcart.png" alt="shopping"/></a>
+
+			</div> <!--end nav-->
+			
+      <!--content-->
+    <div id="content">
+        <div id="order_list">
+           <h3>Order List</h3>
+           <div class="line">
+            	<div id="list_block_1">
+            		<img id="order_img" src="pics/eat/productlistfood01.png"  height="120"  alt="sample image"/>
+            		<h2>Brook Hose Resterant</h2>
+            		<p>Six Course Tasting Menu for Two</p>
+            	</div>
+            	<div id="list_block_2">
+            	    <p style="color:black"> x <input id="how_many" name="how_many" type="number"
+            	           required> = $15 </p>
+            	</div>
+            	<div style="clear:both;"></div>   
+            	<div style="float:right;width:100px; font-weight:bold; padding:8px" >TOTAL: $15</div>
+        	</div><!--end line-->
+        </div><!--end orderlist-->
+        
+        <div id="payment">
+            <h3>Payment</h3>
+            <div class="line">
+          
+			<div class="payment_block"><label>Card Type</label>
+            	      
+            	     
+                 	
+						<div class="cardtype">
+							<input id=visa name=cardtype type=radio>
+							<label for=visa>VISA</label>
+						
+							<input id=amex name=cardtype type=radio>
+							<label for=amex>AmEx</label>
+						
+							<input id=mastercard name=cardtype type=radio>
+							<label for=mastercard>Mastercard</label>
+						</div>
+			       	
+			    
+                </div> 
+                
+                <div class="payment_block_1">
+           
+            	<div class="payment_block"><label for="cardholder_name">Cardholder Name</label>
+            	    <input id="cardholder_name" name="name" type="text"
+            	            placeholder="First and last name" required autofocus>
+            	</div>
+            	            
+            	<div class="payment_block"><label for="cardnumber">Card Number</label>
+            	    <input id="cardnumber" name="cardnumber" type="text"
+            	           required>
+            	</div>
+            	
+            	<div class="payment_block"><label for="securitycode">Security Code</label>
+            	    <input id="securitycode" name="securitycode" type="text"
+            	           required>
+            	</div>
+            	
+            	<div class="payment_block"><label for="expireddate">Expired Date</label>
+            	    <input id="expireddate" name="expired date" type="text" maxlength="6"
+            	           placeholder="formated as mm/yyyy" required>
+            	</div>
+            	
+            	</div> <!--end block1-->
+            	
+                <!--block2-->
+            	
+            	<div class="payment_block_2">
+            	
+            	<div class="payment_block"><label for="billingaddress">Billing Address</label>
+            	    <input id="billingaddress" name="billing address" type="text" required>
+            	</div>
+            	
+            	<div class="payment_block"><label for="city">City</label>
+            	    <input id="city" name="city" type="text" required>
+            	</div>
+            	
+            	<div class="payment_block"><label for="province">Province</label>
+            	    <input id="province" name="province" type="text" required>
+            	</div>
+            	
+            	<div class="payment_block"><label for="postalcode">Postal Code</label>
+            	    <input id="postalcode" name="postal code" type="text" required>
+            	</div>
+                
+                </div>
+                
+           <div style="clear:both;"></div>    
+        </div>  <!--end line-->
+        
+
+      </div>   <!--end payment-->
+
+	
+
+    <div id="button"> <button type="submit" id="complete_button"> Complete Order</button></div>
+
+	
+	
+    </div> 	<!--end content-->
+    
+    <div style="clear:both;"></div>   
+    
+    </div>  <!--end container-->
+    
+    
+    
+    <footer >
+         <div id="footer_contact">
+         	<div>
+    		<p><strong>Contact Us</strong></p>
+    		<p>E-mail: gdtravel@gmail.com.  <br>
+    	   	Toll-free: 1-888-3342          </p>
+    	 	</div>
+    	 	<div>
+    	 	<p><strong>Our Location</strong></p>
+    	 	<p>780 West Georgia St, Vancouver. B.C. Canada. V6Z 2H7</p>
+    	 	</div>
+    	 </div>  
+    	 <div style="clear:both;"></div>
+    	 <div id="footer_copyright">  
+				Copyright&copy;2013. Greendale Tourism LTD.  All rights reserved.
+				
+		</div>
+    </footer>
+
+
+</body>
+
+</html>

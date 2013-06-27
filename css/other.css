@@ -1,0 +1,451 @@
+/* ***********
+the public css starts here
+**************** */
+
+body {
+    font: normal 100% Arial Helvetica, sans-serif;
+    background: #F3EFE8;
+    margin: 0;
+ 
+}
+
+#banner {
+	height: 20px;
+	width: 100%;
+	background: #FDA033;
+}
+
+#container {
+	max-width: 1024px;
+	margin: 0 auto;
+	background: white;
+
+}
+
+footer{
+	background: #FDA033;
+	width: 100%;
+	text-align:center;
+}	
+
+footer p{
+	margin-top: 15px;
+	font-size: 14px;
+	color:white; 
+
+
+}
+
+#footer_contact{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#footer_contact div{
+    margin-left: 20px;
+    
+}
+
+footer #footer_copyright{
+
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align:center;
+    font-size: 0.8em;
+}
+
+
+#logo{
+ 	position: absolute;
+ 	height: 117px;
+ 	width:117px;
+ 	padding-top:10px;
+ 	opacity:0.8;
+}
+
+#nav {
+	height: 80px;
+	background: #F3EFE8;
+/* 	padding-left: 24%; */
+	padding-left:200px;
+	padding-top: 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#nav .navblock { 
+	display: block;
+	float: left;
+	color: #FDA033;
+	text-decoration: none;
+	padding: 20px 3% 0 2%;
+	line-height: 40px;
+	
+}
+
+#nav #shoppingcart{
+		margin-left: 2px;
+	}
+
+
+#nav .navicon{
+    width: 20px;
+    height:20px;
+
+}
+
+#nav .navlink:hover{
+ 	background-color:#F5CB8F; 
+ 	color: white;
+ 	text-decoration:none;
+ 	
+
+}
+
+#nav .navlink {
+	-webkit-transition: all 1s;
+	
+}
+
+
+#content{
+	padding-top: 50px;
+	border-top: 2px solid #FDA033;
+	max-width:1024px;
+    min-width: 320px;
+}
+
+
+h4{
+ 	font-family: Helvetica, san-serif;
+    font-size: 1.2em;  
+    background-color:#FDA033;
+    width: 30px;
+	padding: 10px;
+    color: white;
+    margin-bottom: 10px;
+	float:right;
+}
+form{
+float:right;
+}
+#nearby{
+width: 150px;
+}
+#date{
+width: 100px;
+}
+.grid{
+	display:inline-block;
+	float:left;
+	position:relative;
+	width:40%;
+	padding:0 5%;
+}
+.cols{margin-bottom:1.5em;overflow:hidden;}
+.col{
+			float:left;
+			display:inline;	
+			margin-left:2%;
+			}	
+.cols .first, .col:first-child{margin-left:none;}			
+.col{width:49%;}
+
+#planner {
+width: 20.5%;
+padding: 20px 20px 20px 20px;
+background: #FFFFFF;
+border: 2px solid #FDA033;
+height: 50%;
+}
+
+#rss{
+width: 20.5%;
+padding: 20px 20px 20px 20px;
+height: 400px;
+background: #FFFFFF;
+border: 2px solid #FDA033;
+}
+.right{
+float: right;
+margin-right: 50px;
+}
+.body2{
+border-top: 3px solid #FDA033;
+}
+.header2{
+color: #FDA033;
+padding-top: 15px;
+font-family: Helvetica;
+border-bottom: 2px solid #FDA033;
+}
+.header3{
+color: #FDA033;
+font-family: Helvetica;
+border-bottom: 2px solid #FDA033;
+}
+.desc2{
+margin-bottom: 8%;
+font-size: 0.8em;
+}
+.title{
+color: black;
+font-family: Helvetica;
+}
+.packplanner{
+
+}
+.image{
+border: 2px solid #FDA033;
+}
+img{
+width: 100%;
+}
+#imgdesc{
+position: absolute;
+top: 430px;
+width:40%;
+height:13%;
+background-color:#FDA033;
+color: #ffffff;
+opacity:0.6;
+filter:alpha(opacity=60);
+}
+#imgdesc2{
+position: absolute;
+top: -10px;
+width:100%;
+height:13%;
+color: #ffffff;
+}
+#imgdesc2 h2{
+padding: 20px 20px 0px 40px;
+}
+#imgdesc2 p{
+padding: 0px 20px 0px 60px;
+font-size: 12px;
+}
+
+#about{
+padding: 20px 20px 20px 20px;
+background: #FFFFFF;
+border: 2px solid #FDA033;
+width: 61%;
+height: 50%;
+}
+
+
+#about2{
+padding: 20px 20px 20px 20px;
+margin-left: 7%;
+margin-bottom: 2%;
+background: #F2E491;
+width: 80%;
+height: 50%;
+}
+#items{
+padding: 20px 20px 20px 20px;
+margin-left: 7%;
+background: #FFFFFF;
+border-top: 3px solid #FDA033;
+width: 80%;
+height: 50%;
+}
+.header{
+font-family: Georgia;
+text-decoration: none;
+color: black;
+margin-left: 2%;
+font-size: 1.25em;
+margin-left: 10%;
+padding-bottom: 1%;
+}
+.headerdesc{
+font-family: Georgia;
+margin: 0 0 0 0;
+}
+.desctitle{
+text-decoration: none;
+color: black;
+font-size: 1.25em;
+}
+.desc{
+margin-bottom: 8%;
+font-size: .7em;
+}
+/* The media queries*/
+/*desktop*/
+@media screen and (max-width: 1024px){
+
+	#logo{
+	padding-left: 5%;
+	width: 95px;
+	height: 95px;
+	
+	}
+	
+	#nav {
+		padding-left: 17%;
+		font-size: 1.2em;
+	}
+	.grid{
+		float:left;
+        width:40%;
+	    padding:0 5%;
+	}
+}
+
+
+@media screen and (max-width: 742px){
+	
+	#nav {
+		padding-left: 25%;
+		font-size: 1.1em;
+	}
+	
+	#nav #searchbox{
+		display: none;
+	}
+	.grid{
+		float:left;
+        width:40%;
+	    padding:0 5%;
+    }
+    
+}
+
+
+/*tablet*/
+/*
+@media screen and (max-width:650px){
+ #nav{
+    	padding-left: 30%;
+    }
+
+    #nav a{
+    	font-size: 0.9em;
+    }
+    
+
+	
+	
+}
+*/
+
+
+
+/*mobile*/
+/*@media only screen and (max-width:509px){*/
+@media only screen and (max-width:600px){
+ 	.grid{
+		float:left;
+		width: 100%;
+		width:86%;
+		padding: 7%;
+
+		}
+		
+	#banner{
+		height:10px;
+	}
+	
+    #nav .navlink{
+    	display: none;
+    }
+    
+    #nav #search{
+    	margin-left: 75%;
+    	
+    }
+    
+    #content{
+    	padding:0;
+    }
+  
+	
+
+
+
+}
+
+/* *************************************
+the private css starts here
+************************************* */
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 1.5em;   
+    margin:0;    
+}
+
+h2 {
+ 	font-family: Georgia, serif;
+    font-size: 1.0em;  
+    color: grey;
+}
+
+h3 {
+ 	font-family: Helvetica, san-serif;
+    font-size: 1.2em;  
+    background-color:#F5CB8F;
+    width: 100px;
+	padding: 10px;
+    color: white;
+    margin-bottom: 0;
+   
+}
+
+p {
+	color: grey;
+
+}
+
+ul {
+    font-size: 0.875em;
+    list-style-type:none;
+    padding:0;  
+    margin:0;
+}
+
+li img{
+	float:left;
+	margin:0 15px 0 0;
+}
+
+li{
+	padding: 10px;
+	overflow:auto;
+	border-bottom: 1px dotted #FDA033;
+}
+
+li:hover{
+	background: #F3EFE8;
+	cursor:pointer;
+}
+
+
+#textarea{
+	border:1px solid #FDA033;
+	width: 100%;
+	height:60px;
+
+	margin:10px;
+}
+
+#submit{
+	float: right;
+	width:25%;
+	height:40px;
+    background:#FDA033;
+    font-size:0.9em;
+    margin-bottom:30px;
+}
+
+
+
+
+
+		
+	

@@ -1,0 +1,367 @@
+/* ***********
+the public css starts here
+**************** */
+
+body {
+    font: normal 100% Arial Helvetica, sans-serif;
+    background: #F3EFE8;
+    margin: 0;
+ 
+}
+
+#banner {
+	height: 20px;
+	width: 100%;
+	background: #FDA033;
+}
+
+#container {
+	max-width: 1024px;
+	margin: 0 auto;
+	background: white;
+
+}
+
+footer{
+	background: #FDA033;
+	width: 100%;
+	text-align:center;
+}	
+
+footer p{
+	margin-top: 15px;
+	font-size: 14px;
+	color:white; 
+
+
+}
+
+#footer_contact{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#footer_contact div{
+    margin-left: 20px;
+    
+}
+
+footer #footer_copyright{
+
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align:center;
+    font-size: 0.8em;
+}
+
+
+#logo{
+ 	position: absolute;
+ 	height: 117px;
+ 	width:117px;
+ 	padding-top:10px;
+ 	opacity:0.8;
+}
+
+#nav {
+	height: 80px;
+	background: #F3EFE8;
+/* 	padding-left: 24%; */
+	padding-left:200px;
+	padding-top: 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#nav .navblock { 
+	display: block;
+	float: left;
+	color: #FDA033;
+	text-decoration: none;
+	padding: 20px 3% 0 2%;
+	line-height: 40px;
+	
+}
+
+#nav #shoppingcart{
+		margin-left: 2px;
+	}
+
+
+#nav .navicon{
+    width: 20px;
+    height:20px;
+
+}
+
+#nav .navlink:hover{
+ 	background-color:#F5CB8F; 
+ 	color: white;
+ 	text-decoration:none;
+ 	
+
+}
+
+#nav .navlink {
+	-webkit-transition: all 1s;
+	
+}
+
+
+#content{
+	padding-top: 50px;
+	border-top: 2px solid #FDA033;
+	max-width:1024px;
+    min-width: 320px;
+}
+
+
+.grid{
+	display:inline-block;
+	float:left;
+	position:relative;
+	width:40%;
+	padding:0 5%;
+}
+
+/* The media queries*/
+/*desktop*/
+@media screen and (max-width: 1024px){
+
+	#logo{
+	padding-left: 5%;
+	width: 95px;
+	height: 95px;
+	
+	}
+	
+	#nav {
+		padding-left: 17%;
+		font-size: 1.2em;
+	}
+	.grid{
+		float:left;
+        width:40%;
+	    padding:0 5%;
+	}
+}
+
+
+@media screen and (max-width: 742px){
+	
+	#nav {
+		padding-left: 25%;
+		font-size: 1.1em;
+	}
+	
+	#nav #searchbox{
+		display: none;
+	}
+	.grid{
+		float:left;
+        width:40%;
+	    padding:0 5%;
+    }
+    
+    
+    
+}
+
+
+/*tablet*/
+/*
+@media screen and (max-width:650px){
+ #nav{
+    	padding-left: 30%;
+    }
+
+    #nav a{
+    	font-size: 0.9em;
+    }
+    
+
+	
+	
+}
+*/
+
+
+
+/*mobile*/
+/*@media only screen and (max-width:509px){*/
+@media only screen and (max-width:600px){
+ 	.grid{
+		float:left;
+		width: 100%;
+		width:86%;
+		padding: 7%;
+
+		}
+		
+	#banner{
+		height:10px;
+	}
+	
+    #nav .navlink{
+    	display: none;
+    }
+    
+    #nav #search{
+    	margin-left: 75%;
+    	
+    }
+    
+    #content{
+    	padding:0;
+    }
+	
+ 
+}
+
+/* *************************************
+the private css starts here
+************************************* */
+
+#order_list{
+	padding: 0 7%;
+}
+
+#list_block_1{
+	float: left;
+	min-width: 60%;
+    padding: 20px 5% 20px 0;
+}
+
+#list_block_1 #order_img{
+	float: left;
+	padding-right: 5%;
+}
+
+#list_block_1  p{
+    display:inline;
+    
+}
+
+#list_block_2{
+    float:right;
+    padding: 50px 0 ;
+}
+
+#how_many{
+	width: 50px;
+	height: 20px;
+	border: 2px solid #FDA033;
+}
+
+#order_list h4{
+	
+}
+
+
+#payment{
+	padding: 0 7%;
+	
+}
+
+h3 {
+ 	font-family: Helvetica, san-serif;
+    font-size: 1.2em;
+    font-weight: 400;  
+    background-color:#F5CB8F;
+    width: 100px;
+	padding: 10px;
+    color: white;
+    margin-bottom: 0;
+    
+}
+
+p{
+	color:grey;
+}	
+
+.cardtype{
+	margin:10px;
+}
+
+.payment_block{
+	margin: 20px 0;
+	width: 300px;
+	
+}
+
+.payment_block input[type="text"] {
+	float:right;
+}
+
+.payment_block_1{
+	float: left;
+	
+
+}
+
+.payment_block_2{
+	float: left;
+	padding-left: 20%;
+	
+}
+
+@media only screen and (max-width:1024px){
+.payment_block_2{
+	padding: 10px;
+	margin:0;
+	
+	}
+
+
+}
+
+@media only screen and (max-width:600px){
+.payment_block_2{
+	padding:0;
+	margin:0;
+	
+	}
+	
+#list_block_2{
+    float:left;
+    padding:0 0 0 200px;
+    }
+
+#list_block_1{
+	width:100%;
+}
+}
+
+
+.line{
+    border-top: 2px solid #FDA033;
+    border-bottom:  30px solid  #F5CB8F;
+    
+}
+
+#complete_button{
+	float:right;
+    background: #F4E3CE;
+	border-color: #F9B96B;
+	color: #CE700B;
+
+    -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 10px;
+	font: 15px Helvetica, san-serif;
+	font-weight:900;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+		
+#button{
+
+	padding: 70px;
+
+}
+	
